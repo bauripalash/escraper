@@ -12,7 +12,7 @@ using namespace std;
 using namespace Magick;
 
 int convert(int argc , char** argv , string pdf_file , string image_file , string output_file){
-    /* cout << pdf_file.length() << " " << image_file.length() << endl; */ 
+    
     if (pdf_file.length() > 0 && image_file.length() == 0){
         InitializeMagick(*argv);
    
